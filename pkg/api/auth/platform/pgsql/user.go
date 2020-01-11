@@ -2,7 +2,7 @@ package pgsql
 
 import (
 	"github.com/go-pg/pg/orm"
-	"github.com/ribice/gorsk/pkg/utl/model"
+	gorsk "github.com/ribice/gorsk/pkg/utl/model"
 )
 
 // NewUser returns a new user database instance
@@ -23,6 +23,7 @@ func (u *User) View(db orm.DB, id int) (*gorsk.User, error) {
 	if err != nil {
 		return nil, err
 	}
+
 	return user, nil
 }
 

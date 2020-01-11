@@ -6,6 +6,8 @@ import (
 	"github.com/ribice/gorsk/pkg/utl/model"
 
 	"github.com/labstack/echo"
+
+	gorsk "github.com/priom/gorsk/pkg/utl/model"
 )
 
 // Custom errors

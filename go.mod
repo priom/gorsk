@@ -17,6 +17,8 @@ require (
 	github.com/mattn/go-colorable v0.0.9
 	github.com/mattn/go-isatty v0.0.4
 	github.com/nbutton23/zxcvbn-go v0.0.0-20171102151520-eafdab6b0663
+	github.com/onsi/ginkgo v1.8.0 // indirect
+	github.com/onsi/gomega v1.5.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0
 	github.com/ribice/gorsk v2.1.0+incompatible
 	github.com/rs/zerolog v1.10.3

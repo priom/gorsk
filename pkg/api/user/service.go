@@ -5,7 +5,7 @@ import (
 	"github.com/go-pg/pg/orm"
 	"github.com/labstack/echo"
 	"github.com/ribice/gorsk/pkg/api/user/platform/pgsql"
-	"github.com/ribice/gorsk/pkg/utl/model"
+	gorsk "github.com/ribice/gorsk/pkg/utl/model"
 )
 
 // Service represents user application interface

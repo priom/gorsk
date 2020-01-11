@@ -5,7 +5,7 @@ import (
 
 	"github.com/labstack/echo"
 	"github.com/ribice/gorsk/pkg/api/user"
-	"github.com/ribice/gorsk/pkg/utl/model"
+	gorsk "github.com/ribice/gorsk/pkg/utl/model"
 )
 
 // New creates new user logging service
